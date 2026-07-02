@@ -1,10 +1,12 @@
 package com.merabills.question3.adapter
 
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.merabills.question3.R
+import com.merabills.question3.adapter.SquareAdapter.SquareViewHolder
 import com.merabills.question3.model.Row
 import com.merabills.question3.model.Square
 import com.merabills.question3.model.SquareRemovalResult
@@ -16,7 +18,7 @@ class RowAdapter(
     private var rows: List<Row> = emptyList()
     private var attachedRecyclerView: RecyclerView? = null
     private val sharedRecycledViewPool = RecyclerView.RecycledViewPool().apply {
-        setMaxRecycledViews(0, 100)
+        setMaxRecycledViews(0, 10)
     }
 
     override fun getItemCount(): Int = rows.size
@@ -63,6 +65,8 @@ class RowAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RowViewHolder {
+//        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_square, parent, false)
+//        return RowViewHolder(view, onSquareClick)
         val squareSizePx = parent.context.resources.getDimensionPixelSize(R.dimen.square_size)
         val innerRecyclerView = RecyclerView(parent.context).apply {
             layoutParams = ViewGroup.LayoutParams(
@@ -79,7 +83,7 @@ class RowAdapter(
             setHasFixedSize(true)
             isNestedScrollingEnabled = true
             itemAnimator = null
-            setItemViewCacheSize(10)
+            setItemViewCacheSize(0)
         }
 
         return RowViewHolder(innerRecyclerView, onSquareClick)

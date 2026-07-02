@@ -9,9 +9,11 @@ drawable ic_launcher_foreground
 id jankStatsTextView
 id main
 id rcv_rows
+id rcv_squares
 id resetButton
 id tv_square
 layout activity_main
+layout item_row
 layout item_square
 mipmap ic_launcher
 mipmap ic_launcher_round

@@ -14,7 +14,6 @@ import com.merabills.question3.viewmodel.MainViewModel
 import java.util.concurrent.atomic.AtomicInteger
 
 class MainActivity : AppCompatActivity() {
-
     //region Jank stats tracking - do not modify
     private lateinit var jankStatsTracker: JankStats
     private val totalJankyFrames = AtomicInteger(0)
@@ -75,7 +74,7 @@ class MainActivity : AppCompatActivity() {
             // Critical for performance: every row has the same 32dp height.
             setHasFixedSize(true)
             setItemViewCacheSize(2)
-            recycledViewPool.setMaxRecycledViews(0, 20)
+            recycledViewPool.setMaxRecycledViews(0, 100)
             itemAnimator = null
         }
     }
