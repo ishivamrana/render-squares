@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color negia
+color white
+dimen square_size
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id jankStatsTextView
+id main
+id rcv_rows
+id resetButton
+id tv_square
+layout activity_main
+layout item_square
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string jank_stats
+string placeholder_text
+string reset_button_text
+style Base.Theme.Question3
+style Theme.Question3
+xml backup_rules
+xml data_extraction_rules

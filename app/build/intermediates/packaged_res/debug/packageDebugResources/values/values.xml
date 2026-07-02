@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="negia">#A1A1A1</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="square_size">32dp</dimen>
+    <string name="app_name">Question 3</string>
+    <string name="jank_stats">Janky Frames: %d</string>
+    <string name="placeholder_text">Remove this text view and show the actual content here.</string>
+    <string name="reset_button_text">Reset</string>
+    <style name="Base.Theme.Question3" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Question3" parent="Base.Theme.Question3"/>
+</resources>

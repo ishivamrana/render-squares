@@ -1,0 +1,8 @@
+com.merabills.question3.test.app-core-1.7.0-0 /Users/leorentok/.gradle/caches/8.13/transforms/36e22b462ee042e78f90647abbe2a946/transformed/core-1.7.0/res
+com.merabills.question3.test.app-annotation-experimental-1.4.1-1 /Users/leorentok/.gradle/caches/8.13/transforms/406bc26df06e53af33eef200c72068b0/transformed/annotation-experimental-1.4.1/res
+com.merabills.question3.test.app-tracing-1.2.0-2 /Users/leorentok/.gradle/caches/8.13/transforms/e3fe0e547cb585e036eb6d59cec20c34/transformed/tracing-1.2.0/res
+com.merabills.question3.test.app-androidTest-3 /Users/leorentok/leop/temp/question-3-project/app/build/generated/res/resValues/androidTest/debug
+com.merabills.question3.test.app-updated_navigation_xml-4 /Users/leorentok/leop/temp/question-3-project/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.merabills.question3.test.app-mergeDebugAndroidTestResources-5 /Users/leorentok/leop/temp/question-3-project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.merabills.question3.test.app-mergeDebugAndroidTestResources-6 /Users/leorentok/leop/temp/question-3-project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.merabills.question3.test.app-debugAndroidTest-7 /Users/leorentok/leop/temp/question-3-project/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
